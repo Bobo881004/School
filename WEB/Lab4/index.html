@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang ="en" dir="ltr">
+
+<head>
+        <mata charset = "utf-8">
+
+        <style>
+            
+            body{
+                background-image: url(https://i.imgur.com/SzDjEU8.jpg);
+            }
+            .box{       
+                background-color:  white;
+                width:1000px;
+                padding:15px;
+                top: 50%;
+                left: 50%;
+                
+            }
+            .box h1{
+                text-transform:uppercase;
+            }
+            .box input[type = "text"] , .box input[type = "password"]{  
+                border:0;
+                background: none;
+                margin:0.1%;
+                border:2px solid #3498db;
+                padding:14px 10px;
+                width:200px;
+                outline:none;
+                color:#00AA00;
+                text-align:center;
+                border-radius:24px;
+            }
+            button{  
+                border:0;
+                background: none;
+                border:5px solid    #00AA00;
+                padding:10px 10px;
+                width: 15%;
+                outline:none;
+                color:black;
+                text-align:center;
+                border-radius:24px;
+            }
+            #apple{  
+                border:0;
+                background: none;
+                border:2px solid    black;
+                padding:10px 10px;
+                width: 8%;
+                color:black;
+                text-align:center;
+
+            }
+        </style>   
+        
+<script>
+function myFunction() {
+    alert("別亂提交帳密 可以嗎");
+}
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#apple").click(function(){
+    $("p").toggle();
+  });
+});
+</script>
+
+</head>
+    
+<body>
+ <p><a href="https://wayne881004.github.io/">Bobo日記</a></p>
+
+
+    <form class="box" action = "index.html" method = "post">
+        <h1>Login</h1>
+        <input type = "text" name = "" placeholder = "Username">
+        <input type = "password" name = "" placeholder = "Password">
+    </form>
+    <button onclick="myFunction()">Submit._.</button>
+    <button id = "apple">Hide</button>
+</body>
+</html>

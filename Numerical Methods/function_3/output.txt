@@ -1,0 +1,46 @@
+Between -8.0 AND -1.0
+
+Bisection Method:
+
+29 Times. Between -8.0 AND -7.0 have the answer: -7.85398163460195064544678
+29 Times. Between -5.0 AND -4.0 have the answer: -4.71238970570266246795654
+29 Times. Between -2.0 AND -1.0 have the answer: -1.56156052090227603912354
+_____________________
+
+FalsePosition Method:
+
+4 Times. Between -8.0 AND -7.0 have the answer: -7.85398163391597936566768
+4 Times. Between -5.0 AND -4.0 have the answer: -4.71238970533036471977084
+4 Times. Between -2.0 AND -1.0 have the answer: -1.56156052034318548749070
+_____________________
+
+ModifyFalsePosition Method:
+
+33 Times. Between -8.0 AND -7.0 have the answer: -7.85398163275715255338127
+28 Times. Between -5.0 AND -4.0 have the answer: -4.71238970440757842794710
+36 Times. Between -2.0 AND -1.0 have the answer: -1.56156052023906122272479
+_____________________
+
+Secant Method:
+
+5 Times. Between -8.0 AND -7.0 have the answer: -7.85398163391598114202452
+5 Times. Between -5.0 AND -4.0 have the answer: -4.71238970533036471977084
+5 Times. Between -2.0 AND -1.0 have the answer: -1.56156052035018211299189
+_____________________
+
+Newton Method:
+
+3 Times. Between -8.0 AND -7.0 have the answer: -7.85398163391598025384610
+4 Times. Between -5.0 AND -4.0 have the answer: -4.71238970533036471977084
+4 Times. Between -2.0 AND -1.0 have the answer: -1.56156052035018233503649
+_____________________
+
+Fixed Point Method:
+
+0 Times. Between -8.0 AND -7.0 have the answer: nan
+4 Times. Between -7.0 AND -6.0 have the answer: 0.00000000000000000000000
+3 Times. Between -6.0 AND -5.0 have the answer: 0.00000000000000000000000
+5 Times. Between -5.0 AND -4.0 have the answer: 0.00000000000000000000000
+0 Times. Between -4.0 AND -3.0 have the answer: nan
+0 Times. Between -3.0 AND -2.0 have the answer: nan
+0 Times. Between -2.0 AND -1.0 have the answer: nan

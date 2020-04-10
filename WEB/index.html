@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+       /* Set the size of the div element that contains the map */
+      #map {
+        height: 600px;  /* The height is 600 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+    </style>
+  </head>
+  <body>
+    <h1> Map Test</h1>
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 22.5735066, lng: 120.363484},/*位置*/
+          zoom: 16/*地圖比例*/
+        });
+      }
+    </script>
+   
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsXjEuopZGwi7BaU5Yiu9CmTG-g_b7Aj0&callback=initMap">
+    </script>
+  </body>
+</html>
