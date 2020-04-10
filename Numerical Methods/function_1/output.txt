@@ -1,0 +1,53 @@
+Between -10.0 AND 2.0
+
+Bisection Method:
+
+29 Times. Between -9.0 AND -8.0 have the answer: -8.79929905571043491363525
+29 Times. Between -7.0 AND -6.0 have the answer: -6.86108366586267948150635
+29 Times. Between -6.0 AND -5.0 have the answer: -5.74873075075447559356689
+29 Times. Between -4.0 AND -3.0 have the answer: -3.46759920008480548858643
+29 Times. Between -3.0 AND -2.0 have the answer: -2.95425050891935825347900
+29 Times. Between 1.0 AND 2.0 have the answer: 1.43002820573747158050537
+_____________________
+
+FalsePosition Method:
+
+5 Times. Between -9.0 AND -8.0 have the answer: -8.79929905567781922570703
+9 Times. Between -7.0 AND -6.0 have the answer: -6.86108366449804929487755
+4 Times. Between -6.0 AND -5.0 have the answer: -5.74873075099621466677036
+29 Times. Between -4.0 AND -3.0 have the answer: -3.46759919824758044981650
+14 Times. Between -3.0 AND -2.0 have the answer: -2.95425050982417847222905
+9 Times. Between 1.0 AND 2.0 have the answer: 1.43002820659585694329508
+_____________________
+
+ModifyFalsePosition Method:
+
+36 Times. Between -9.0 AND -8.0 have the answer: -8.79929905426734038087488
+27 Times. Between -7.0 AND -6.0 have the answer: -6.86108366471691333288163
+31 Times. Between -6.0 AND -5.0 have the answer: -5.74873075030541702545861
+35 Times. Between -4.0 AND -3.0 have the answer: -3.46759919888368539631074
+32 Times. Between -3.0 AND -2.0 have the answer: -2.95425051006462702218869
+35 Times. Between 1.0 AND 2.0 have the answer: 1.43002820583098411155731
+_____________________
+
+Secant Method:
+
+6 Times. Between -9.0 AND -8.0 have the answer: -8.79929905512278409673854
+5 Times. Between -6.0 AND -5.0 have the answer: -5.74873075092704510780095
+6 Times. Between -3.0 AND -2.0 have the answer: -2.95425050915348652580406
+8 Times. Between 1.0 AND 2.0 have the answer: 1.43002820651934481333001
+_____________________
+
+Newton Method:
+
+5 Times. Between -9.0 AND -8.0 have the answer: -8.79929905512278409673854
+4 Times. Between -7.0 AND -6.0 have the answer: -6.86108366470742137011030
+5 Times. Between -6.0 AND -5.0 have the answer: -5.74873075092704510780095
+6 Times. Between -4.0 AND -3.0 have the answer: -3.46759919923775639105656
+4 Times. Between -3.0 AND -2.0 have the answer: -2.95425050915348652580406
+5 Times. Between 1.0 AND 2.0 have the answer: 1.43002820651934481333001
+_____________________
+
+Fixed Point Method:
+
+0 Times. Between -3.0 AND -2.0 have the answer: -2.86414921961870305722186
